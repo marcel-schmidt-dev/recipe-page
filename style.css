@@ -97,6 +97,7 @@ hr {
     margin: 32px 0;
     background-color: #FFF7FB;
     padding: 28px;
+    border-radius: 12px;
 }
 
 .preparation-time h3 {
@@ -155,4 +156,59 @@ hr {
     line-height: 150%;
     font-size: 16px;
     color: #854632;
+}
+
+@media (max-width: 376px) {
+    .container {
+        margin: 0;
+        border-radius: 0;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .container>img {
+        border-radius: 0;
+        margin-bottom: 40px;
+    }
+
+    .container>h1 {
+        font-size: 36px;
+        margin: 0 32px;
+        margin-bottom: 24px;
+    }
+
+    .container p {
+        margin: 0 32px;
+    }
+
+    .preparation-time {
+        margin: 32px;
+        padding: 24px;
+        border-radius: 12px;
+    }
+
+    .ingredients {
+        margin: 0 32px;
+    }
+
+    hr {
+        margin: 32px;
+    }
+
+    .instructions {
+        margin: 0 32px;
+    }
+
+    .nutrition {
+        margin: 0 32px;
+    }
+
+    .nutrition p {
+        margin: 0;
+        margin-bottom: 24px;
+    }
+
+    body {
+        background-color: #fff;
+    }
 }
